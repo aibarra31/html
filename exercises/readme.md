@@ -26,6 +26,7 @@ about commiting the changes and finally push them into your forked repository.
     
 ## Exercise 3
 
+
   Create a `<form>` element that will ask to the user and will submit to `www.google.com` using `GET` method:
     1. Name (textbox)
     2. Last Name (textbox)
@@ -42,3 +43,14 @@ about commiting the changes and finally push them into your forked repository.
   push to the forked repository, finally discuss the differences between both methods, using the readme file of this
   exercise.
 
+The differences and definition between 'GET' and 'POST'
+GET: Requests data from a specified resource
+Post: Submits data to be processed to a specified resource
+
+Some other notes on GET requests
+  o GET requests can be cached, requests remain in the browser history, requests can be bookmarked, requests should never be
+  used when dealing with sensitive data, requests have length restrictions, requests should be used only to retrieve data
+  
+Some Notes on Post requests:
+  o Post requests are never cached, requests do not remain in the browser history, requests cannot be bookmarked and 
+  requests have no restrictions on data length
